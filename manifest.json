@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Radio France Podcast DL",
+    "version": "1.0.1",
+    "description": "Enregistrez facilement les flux audio de Radio France au format M4A.",
+    "permissions": [
+      "downloads",
+      "activeTab",
+      "storage"
+    ],
+    "host_permissions": [
+      "*://radiofrance.fr/*",
+      "*://www.radiofrance.fr/*"
+    ],
+    "action": {
+      "default_icon": {
+        "128": "icons/icon.png"
+      }
+    },
+    "icons": {
+      "128": "icons/icon.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://radiofrance.fr/*", "*://www.radiofrance.fr/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
