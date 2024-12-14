@@ -43,13 +43,13 @@ async function parseAudio() {
                 }
 
             } else {
-                console.log("Aucune valeur trouvée pour 'diffusionId'.");
+                console.log("nor 'diffusionId'.");
             }
         } else {
-            console.error("Impossible de trouver la constante 'data' dans le script.");
+            console.error("no data");
         }
     } else {
-        console.error("Aucun script contenant 'const data =' trouvé.");
+        console.error("no script");
     }
 
 }
