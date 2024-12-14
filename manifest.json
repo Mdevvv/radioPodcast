@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Radio France Podcast DL",
     "version": "1.0.1",
-    "description": "Enregistrez facilement les flux audio de Radio France au format M4A.",
+    "description": "Easily record Radio France audio streams.",
     "permissions": [
       "downloads",
       "activeTab",
